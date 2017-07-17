@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.hezhujun.shopping.view.activity.CategoryActivity">
+
+    <fragment
+        android:id="@+id/tool_bar"
+        android:name="com.hezhujun.shopping.view.fragment.ToolBarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"></ListView>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/add_category"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="+ 添加类别"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_state">
+        <item>...</item>
+        <item>等待商家确认</item>
+        <item>商家已确认</item>
+        <item>商家已拒绝</item>
+        <item>用户已关闭</item>
+    </string-array>
+</resources>
